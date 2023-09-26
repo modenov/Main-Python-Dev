@@ -1,12 +1,13 @@
-# Python-Course-Another-Works
-Tasks from the Stepik Python course. Yes. again!
+# Stepik Basic
+Main Python Dev — Vladimir Modenov, 2022-2023.
 
-## What is it?
+Here are selected (not all!) assignments from the course on the Stepik website:
+https://stepik.org/course/58852
+
+### What is it?
 
 This is tasks from the Stepik Python course.
 
-## What IDE did you use?
+### What IDE did you use?
 
 JetBrains PyCharm Community.
-
-Copyright (c) Vladimir Modenov, 2022.
