@@ -1,17 +1,18 @@
 #  Copyright (c) Vladimir Modenov.
-#  Created: 25.08.2022, 15:40
-#  Project: SkepikPythonWorks
+#  Created: 01.10.2022, 13:35
+#  Project: StepikPythonProjects
 #  File: Dividers2.py
 
-# На вход программе подается натуральное число nnn. Напишите программу, выводящую графическое изображение делимости
-# чисел от 1 до n включительно. В каждой строке надо напечатать очередное число и столько символов «+», сколько
-# делителей у этого числа. На вход программе подается одно натуральное число.
+# Напишите функцию number_of_factors(num), принимающую в качестве аргумента число и возвращающую количество делителей
+# данного числа.
 
+# объявление функции
+def number_of_factors(num):
+    return len([i for i in range(1, num + 1) if num % i == 0])
+
+
+# считываем данные
 n = int(input())
 
-for i in range(1, n + 1):
-    print(i, end='')
-    for j in range(1, i + 1):
-        if i % j == 0:
-            print('+', end='')
-    print()
+# вызываем функцию
+print(number_of_factors(n))
