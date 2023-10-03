@@ -4,4 +4,6 @@
 #   Created: 26.09.2023, 21:19
 #   Project: Python Works
 
-print(2+2)
+a = 2
+b = 54
+print(a + b)
